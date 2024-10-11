@@ -4,8 +4,10 @@ public class KilogramsToPounds {
 
         int kilograms = 1;
 
+        //printing ou tthe results
         System.out.println("Kilograms\tPounds");
 
+        //run while loop as long as kg is below 200
         while (kilograms <= 199) {
             double pounds = kilograms * POUNDS_PER_KILOGRAM;
 
